@@ -1,5 +1,5 @@
 import express from 'express'
-import dotenv from './config/dotenv.js'
+import './config/dotenv.js'
 import giftsRouter from './routes/gifts.js'
 
 const app = express()
